@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .collapse {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .collapse .ulll {
+  width: 60%;
+}
+
+#realFitness {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-image: url("https://preview.colorlib.com/theme/gym/img/header-bg.jpg");
+}
+#realFitness .real {
+  width: 100%;
+  min-height: 600px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#realFitness .real .depends {
+  width: 100%;
+  min-height: 500px;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#realFitness .real .depends h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#adToCart {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 243, 243);
+}
+#adToCart .weCare {
+  width: 100%;
+  text-align: center;
+}
+#adToCart .weCare .whoAre {
+  width: 100%;
+  min-height: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#adToCart .weCare #inp {
+  width: 40%;
+  min-height: 45px;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  padding-left: 20px;
+}
+#adToCart .weCare #axtar {
+  width: 10%;
+  border: none;
+  min-height: 45px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #F6214B;
+  color: white;
+}
+#adToCart .weCare #axtar:hover {
+  background-color: black;
+  border: 0.5px solid white;
+}
+#adToCart .weCare #myDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#adToCart .weCare #myDiv .myBox {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+#adToCart .weCare #myDiv .myBox .classBox {
+  width: 100%;
+  border: 0.3px solid rgb(209, 207, 207);
+  background-color: white;
+  min-height: 300px;
+  box-shadow: 0 0 20px rgba(246, 33, 75, 0.4);
+}
+#adToCart .weCare #myDiv .myBox .classBox img {
+  max-width: 35%;
+  border-radius: 60%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#adToCart .weCare #myDiv .myBox .classBox button {
+  width: 40%;
+  min-height: 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: #F6214B;
+  color: white;
+}
+#adToCart .weCare #myDiv .myBox .classBox button:hover {
+  background-color: black;
+  border: 0.5px solid white;
+}
+#adToCart .weCare #Search {
+  width: 100%;
+}
+#adToCart .weCare #Search .myBox img {
+  max-width: 100%;
+}
+#adToCart .weCare #btn {
+  width: 20%;
+  margin-top: 30px;
+  min-height: 40px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  background-color: #F6214B;
+}
+
+#courseAvailable {
+  width: 100%;
+  min-height: 900px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#courseAvailable .fitnes {
+  width: 100%;
+  height: auto;
+}
+#courseAvailable .fitnes .topCourses {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#courseAvailable .fitnes .Classes {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#courseAvailable .fitnes .Classes img {
+  max-width: 100%;
+  position: relative;
+}
+#courseAvailable .fitnes .Classes .Course {
+  width: 55%;
+  min-height: 40px;
+  background-color: #F6214B;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7px;
+  position: absolute;
+  bottom: 90px;
+  left: 30px;
+}
+#courseAvailable .fitnes .Classes .Running {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#becomeAmember {
+  width: 100%;
+  min-height: 400px;
+  background-size: cover;
+  background-image: url("https://preview.colorlib.com/theme/gym/img/callto-bg.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#becomeAmember .huge {
+  width: 100%;
+  min-height: 400px;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#becomeAmember .huge .transaction {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+#becomeAmember .huge .transaction h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+#becomeAmember .huge .transaction button {
+  width: 18%;
+  min-height: 50px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: #F6214B;
+}
+#becomeAmember .huge .transaction button:hover {
+  background-color: transparent;
+  border: 0.5px solid white;
+}
+
+footer {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+footer .end {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .end i {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#basket {
+  width: 100%;
+  min-height: 500px;
+}
